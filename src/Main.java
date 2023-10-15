@@ -27,9 +27,10 @@ public class Main {
                     int die3 = die.nextInt(6) + 1;
                     int die4 = die.nextInt(6) + 1;
                     roll2 = die3 + die4;
-                    System.out.println("You rolled " + roll2);
+                    System.out.println("You rolled " + roll2 + " for point");
                     if (roll2 == roll) {
                         System.out.println("You Win!");
+                        break;
                     } else if (roll2 == 7) {
                         System.out.println("You Lose!");
                     }
